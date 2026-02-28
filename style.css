@@ -224,7 +224,7 @@ nav.scrolled { padding: 14px 60px; }
   position: absolute; inset: 0; z-index: 2; pointer-events: none;
   background:
     linear-gradient(to bottom, rgba(7,19,28,0.65) 0%,  rgba(7,19,28,0.0) 28%),
-    linear-gradient(to top,    rgba(7,19,28,0.92) 0%,  rgba(7,19,28,0.40) 35%, transparent 62%),
+    linear-gradient(to top, rgba(7,19,28,0.96) 0%, rgba(7,19,28,0.55) 40%, transparent 65%)
     linear-gradient(to right,  rgba(7,19,28,0.55) 0%,  transparent 22%),
     linear-gradient(to left,   rgba(7,19,28,0.22) 0%,  transparent 14%);
 }
@@ -250,23 +250,27 @@ nav.scrolled { padding: 14px 60px; }
 /* name/role engraved at the bottom of the photo */
 .photo-caption {
   position: absolute;
-  bottom: 0; left: 0; right: 0;
-  z-index: 8;
-  padding: 28px 32px 24px;
+  bottom: 46px;   /* ← raised above info-strip */
+z-index: 10;    /* ← above ALL overlays */
+padding: 28px 32px 20px;
   display: flex; flex-direction: column; gap: 8px;
   /* caption sits inside the photo, above all overlays */
 }
 .photo-caption-name {
   font-family: var(--ff-display);
-  font-size: 1.5rem; font-weight: 700;
-  color: rgba(255,255,255,0.95);
+
+ 
   letter-spacing: 0.01em; line-height: 1;
-  text-shadow: 0 1px 12px rgba(0,0,0,0.5);
+  font-size: 1.6rem;                          /* ← slightly bigger */
+color: #ffffff;                             /* ← full white */
+text-shadow: 0 2px 16px rgba(0,0,0,0.8),
+             0 1px 4px rgba(0,0,0,0.9);     /* ← much stronger shadow */
 }
 .photo-caption-role {
   display: inline-flex; align-items: center; gap: 7px;
   font-family: var(--ff-mono); font-size: 0.62rem;
-  color: var(--amber); letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--amber);
+  text-shadow: 0 1px 8px rgba(0,0,0,0.9);   /* ← added for legibility */
 }
 .photo-caption-role::before {
   content: '';
