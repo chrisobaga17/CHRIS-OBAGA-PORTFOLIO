@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Christopher Obaga — Network Specialist & IT Developer, Nairobi Kenya">
+  <title>Christopher Obaga — Network Specialist & Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#home" class="nav-logo">C.<span>Obaga</span></a>
+    <ul class="nav-links">
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#labs">Labs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-left">
+      <div class="hero-eyebrow">
+        <span class="hero-eyebrow-line"></span>
+        Network Specialist &amp; IT Developer
+      </div>
+      <h1 class="hero-name">
+        Christopher
+        <em>Obaga</em>
+      </h1>
+      <p class="hero-tagline">
+        Configuring networks, securing infrastructure, and resolving technical challenges — while crafting clean web solutions that keep systems and people connected.
+      </p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get In Touch
+        </a>
+        <a href="#projects" class="btn btn-secondary">View My Work →</a>
+      </div>
+    </div>
+
+    <!-- HERO RIGHT — engraved photo panel -->
+    <div class="hero-right">
+      <div class="hero-photo-area">
+        <div class="photo-wrap" id="photoWrap">
+          <div class="photo-box">
+            <img src="chris.jpg" alt="Christopher Obaga" id="heroImg">
+            <div class="photo-scanlines"></div>
+            <!-- name/role engraved at bottom of photo -->
+            <div class="photo-caption">
+              <div class="photo-caption-name">Christopher Obaga</div>
+              <div class="photo-caption-role">ICT Assistant &amp; Network Specialist</div>
+            </div>
+            <!-- JS-driven particle canvas -->
+            <canvas id="photo-canvas"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="hero-info-strip">
+        <div class="photo-name"></div>
+        <div class="photo-role"></div>
+        <div class="photo-meta">📍 Nairobi, Kenya &nbsp;·&nbsp; Huduma Kenya Secretariat &nbsp;·&nbsp; BSc IT · Zetech University</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section section-alt">
+    <div class="section-label">
+      <span class="section-num">01</span>
+      <h2 class="section-title">Resume</h2>
+      <span class="section-label-line"></span>
+    </div>
+    <div class="resume-layout">
+      <div>
+        <div class="resume-block">
+          <p class="resume-block-title">Education</p>
+          <div class="exp-item">
+            <div class="exp-dot"></div>
+            <div class="exp-line-col">
+              <div class="exp-title">BSc Information Technology</div>
+              <div class="exp-org">Zetech University</div>
+              <div class="exp-date">2020 — 2023 · Nairobi, Kenya</div>
+              <div class="exp-desc">Second Class Honors, Upper Division. Core studies in networking, software engineering, databases, systems analysis, and IT project management.</div>
+            </div>
+          </div>
+          <div class="exp-item">
+            <div class="exp-dot"></div>
+            <div class="exp-line-col">
+              <div class="exp-title">KCSE — Kenya Certificate of Secondary Education</div>
+              <div class="exp-org">Dagoretti High School</div>
+              <div class="exp-date">2016 — 2019 · Nairobi, Kenya</div>
+              <div class="exp-desc">Completed secondary education with strong foundations in sciences and mathematics.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-block">
+          <p class="resume-block-title">Work Experience</p>
+          <div class="exp-item">
+            <div class="exp-dot"></div>
+            <div class="exp-line-col">
+              <div class="exp-title">ICT Assistant &amp; Network Specialist</div>
+              <div class="exp-org">Huduma Kenya Secretariat</div>
+              <div class="exp-date">17 March 2025 — Present &nbsp;·&nbsp; Nairobi, Kenya</div>
+              <div class="exp-badge">🟢 Currently Employed</div>
+              <div class="exp-desc"><ul>
+                <li>Configure, maintain, and monitor LAN/WAN infrastructure across Huduma Centre service delivery points.</li>
+                <li>Implement and manage network security policies, firewall rules, and access control to protect citizen data.</li>
+                <li>Administer routing protocols, VLANs, DHCP, and DNS to ensure high-availability network performance.</li>
+                <li>Provide first and second-line technical support for hardware, software, and connectivity issues.</li>
+                <li>Maintain system documentation and conduct regular network health assessments.</li>
+                <li>Coordinate with vendors and government ICT teams on infrastructure upgrades and deployments.</li>
+              </ul></div>
+            </div>
+          </div>
+          <div class="exp-item">
+            <div class="exp-dot"></div>
+            <div class="exp-line-col">
+              <div class="exp-title">Junior Software Developer — Intern</div>
+              <div class="exp-org">Pensoft Software Company</div>
+              <div class="exp-date">January 2024 — July 2024</div>
+              <div class="exp-desc"><ul>
+                <li>Built and maintained web applications using C# with Blazor framework.</li>
+                <li>Customised the IPEN insurance system — motor products, premium calculation engines.</li>
+                <li>Integrated third-party APIs for payment processing, authentication, and data retrieval.</li>
+                <li>Conducted thorough testing, debugging, and authored comprehensive end-user documentation.</li>
+                <li>Guided clients through system functionalities and technical troubleshooting sessions.</li>
+              </ul></div>
+            </div>
+          </div>
+          <div class="exp-item">
+            <div class="exp-dot"></div>
+            <div class="exp-line-col">
+              <div class="exp-title">ICT Assistant</div>
+              <div class="exp-org">Ministry of Investments, Trade &amp; Industry</div>
+              <div class="exp-date">May 2023 — November 2023</div>
+              <div class="exp-desc"><ul>
+                <li>Provided technical support for hardware, software, and network issues government-wide.</li>
+                <li>Assisted in LAN/WAN configuration, maintenance, and real-time monitoring.</li>
+                <li>Implemented data backup and recovery procedures to safeguard critical records.</li>
+                <li>Contributed to development and maintenance of the Scrap Metal Council portal.</li>
+                <li>Produced user manuals and graphic design assets for ministerial events.</li>
+              </ul></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p class="resume-block-title">Skills &amp; Expertise</p>
+        <div class="network-spotlight">
+          <div class="network-spotlight-title">⚡ Networking Speciality</div>
+          <div class="skill-pills">
+            <span class="pill hot">Network Configuration &amp; Protocols</span>
+            <span class="pill hot">LAN / WAN Administration</span>
+            <span class="pill hot">Network Security</span>
+            <span class="pill hot">Cisco Routing &amp; Switching</span>
+            <span class="pill hot">TCP/IP Stack</span>
+            <span class="pill hot">VLAN Design</span>
+            <span class="pill hot">DHCP &amp; DNS</span>
+            <span class="pill hot">Firewall Configuration</span>
+            <span class="pill">Network Monitoring</span>
+            <span class="pill">Packet Analysis (Wireshark)</span>
+            <span class="pill">VPN Configuration</span>
+            <span class="pill">Access Control Lists</span>
+          </div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-block">
+            <div class="skill-block-title">Programming Languages</div>
+            <div class="skill-pills">
+              <span class="pill warm">C#</span><span class="pill warm">PHP</span>
+              <span class="pill warm">JavaScript</span><span class="pill warm">HTML / CSS</span>
+              <span class="pill">SQL</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-block-title">Frameworks &amp; Tools</div>
+            <div class="skill-pills">
+              <span class="pill">Blazor</span><span class="pill">ASP.NET</span>
+              <span class="pill">REST APIs</span><span class="pill">Git</span>
+              <span class="pill">Visual Studio</span><span class="pill">Cisco Packet Tracer</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-block-title">Systems &amp; Support</div>
+            <div class="skill-pills">
+              <span class="pill">Hardware Maintenance</span><span class="pill">Backup &amp; Recovery</span>
+              <span class="pill">Technical Support</span><span class="pill">Software Installation</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <div class="skill-block-title">Soft Skills</div>
+            <div class="skill-pills">
+              <span class="pill">Problem-Solving</span><span class="pill">Critical Thinking</span>
+              <span class="pill">Teamwork</span><span class="pill">Project Management</span>
+              <span class="pill">Documentation</span><span class="pill">Client Communication</span>
+            </div>
+          </div>
+        </div>
+        <div class="resume-block" style="margin-top:36px;">
+          <p class="resume-block-title">Certifications</p>
+          <div class="skill-pills">
+            <span class="pill warm">Certification 1</span>
+            <span class="pill">Certification 2</span>
+            <span class="pill">Certification 3</span>
+          </div>
+          <p style="font-family:var(--ff-mono);font-size:0.65rem;color:var(--muted);margin-top:14px;letter-spacing:0.06em;">↑ certifications to be updated</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-label">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Projects</h2>
+      <span class="section-label-line"></span>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-num">01</div>
+        <div class="project-type-tag">Internship · 2024</div>
+        <div class="project-title">IPEN Insurance Management System</div>
+        <p class="project-desc">Customised a full insurance management platform at Pensoft Software. Delivered motor insurance product modules, premium calculation engines, and payment gateway integrations. Produced end-user documentation and conducted client onboarding sessions.</p>
+        <div class="project-tech">
+          <span class="tech-chip">C#</span><span class="tech-chip">Blazor</span>
+          <span class="tech-chip">ASP.NET</span><span class="tech-chip">REST API</span><span class="tech-chip">SQL Server</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-num">02</div>
+        <div class="project-type-tag">Government · 2023</div>
+        <div class="project-title">Scrap Metal Council Web Portal</div>
+        <p class="project-desc">Contributed to the development and maintenance of the official Scrap Metal Council portal for the Ministry of Investments, Trade &amp; Industry. Handled UI development, server-side logic, database queries, and government-facing documentation.</p>
+        <div class="project-tech">
+          <span class="tech-chip">PHP</span><span class="tech-chip">HTML / CSS</span>
+          <span class="tech-chip">JavaScript</span><span class="tech-chip">MySQL</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-num">03</div>
+        <div class="project-type-tag">Academic · University Capstone</div>
+        <div class="project-title">Campus Network Design &amp; Configuration</div>
+        <p class="project-desc">Designed and simulated a full campus-area network topology as a university capstone. Configured routers, switches, VLANs, DHCP, DNS, and basic security ACLs. Documented the complete architecture and presented findings to faculty.</p>
+        <div class="project-tech">
+          <span class="tech-chip">Cisco Packet Tracer</span><span class="tech-chip">TCP/IP</span>
+          <span class="tech-chip">VLAN</span><span class="tech-chip">DHCP</span><span class="tech-chip">ACL</span>
+        </div>
+      </div>
+      <div class="project-card project-card-wide">
+        <div class="project-num">04</div>
+        <div class="project-type-tag">Other Projects — To be updated</div>
+        <div class="project-title">More projects coming soon</div>
+        <p class="project-desc">This section will be updated with additional projects from ongoing training, personal builds, or freelance engagements.</p>
+        <div class="project-tech"><span class="tech-chip">To be updated</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LAB CHALLENGES -->
+  <section id="labs" class="section section-alt">
+    <div class="section-label">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Lab Challenges</h2>
+      <span class="section-label-line"></span>
+    </div>
+    <div class="labs-layout">
+
+      <div class="lab-card open">
+        <div class="lab-header">
+          <div class="lab-index">1</div>
+          <div class="lab-header-text">
+            <div class="lab-title">Network Traffic Analysis with Wireshark</div>
+            <div class="lab-meta-row">
+              <span class="lab-cat">Networking &amp; Forensics</span><span class="lab-cat">·</span>
+              <span class="lab-cat">Local VM Lab</span>
+              <span class="lab-difficulty diff-easy">Foundational</span>
+            </div>
+          </div>
+          <div class="lab-toggle">+</div>
+        </div>
+        <div class="lab-body">
+          <div class="lab-section"><div class="lab-section-title"><span>01</span> Problem Statement</div><p>Capture and analyse live network traffic on a local area network to identify active hosts, protocols in use, unencrypted credentials, and suspicious traffic patterns. Objective: understand packet-level communication and what sensitive data is exposed on an unsegmented flat network.</p></div>
+          <div class="lab-section"><div class="lab-section-title"><span>02</span> Approach</div><ul>
+            <li>Deployed multiple VMs in a bridged virtual network to simulate a realistic LAN environment.</li>
+            <li>Enabled promiscuous mode on the capture interface and started a Wireshark session.</li>
+            <li>Applied display filters for HTTP, FTP, DNS, and ARP to isolate specific traffic types.</li>
+            <li>Used "Follow TCP Stream" to reconstruct and read plain-text HTTP login credentials in full.</li>
+            <li>Inspected ARP tables to enumerate all active hosts and IP-to-MAC mappings on the segment.</li>
+            <li>Compiled findings into a structured packet analysis report with screenshots.</li>
+          </ul></div>
+          <div class="lab-section"><div class="lab-section-title"><span>03</span> Tools Used</div><div class="tools-row"><span class="tool-tag">Wireshark</span><span class="tool-tag">VirtualBox</span><span class="tool-tag">Kali Linux</span><span class="tool-tag">tcpdump</span><span class="tool-tag">HTTP / FTP</span><span class="tool-tag">ARP Protocol</span></div></div>
+          <div class="lab-section"><div class="lab-section-title"><span>04</span> Screenshots</div><div class="screenshot-box"><p>[ To be uploaded ]</p></div></div>
+          <div class="lab-section"><div class="lab-section-title"><span>05</span> Key Lessons Learned</div><div class="lesson-callout">Unencrypted protocols like HTTP and FTP transmit credentials as plain text — visible to any host on the same network segment. This reinforced why HTTPS/SFTP are non-negotiable in any production deployment. VLAN segmentation is a critical defence-in-depth control; without it, any compromised host has full network visibility.</div></div>
+        </div>
+      </div>
+
+      <div class="lab-card">
+        <div class="lab-header">
+          <div class="lab-index">2</div>
+          <div class="lab-header-text">
+            <div class="lab-title">SQL Injection — Web Application Exploitation</div>
+            <div class="lab-meta-row">
+              <span class="lab-cat">Web Application Security</span><span class="lab-cat">·</span>
+              <span class="lab-cat">DVWA / TryHackMe</span>
+              <span class="lab-difficulty diff-medium">Intermediate</span>
+            </div>
+          </div>
+          <div class="lab-toggle">+</div>
+        </div>
+        <div class="lab-body">
+          <div class="lab-section"><div class="lab-section-title"><span>01</span> Problem Statement</div><p>Exploit SQL injection vulnerabilities in a deliberately vulnerable web application (DVWA) to extract database contents, bypass authentication, and fully understand injection mechanics. Then document and validate appropriate developer-side mitigations.</p></div>
+          <div class="lab-section"><div class="lab-section-title"><span>02</span> Approach</div><ul>
+            <li>Deployed DVWA locally via Docker; configured security level to LOW for initial exploration.</li>
+            <li>Identified injectable input fields through error-based probing with a single-quote payload <code style="font-family:var(--ff-mono);font-size:0.82em;color:var(--teal);">'</code>.</li>
+            <li>Used UNION-based injection to enumerate table names from <code style="font-family:var(--ff-mono);font-size:0.82em;color:var(--teal);">information_schema</code>.</li>
+            <li>Extracted hashed user credentials from the users table using targeted SELECT payloads.</li>
+            <li>Demonstrated authentication bypass using <code style="font-family:var(--ff-mono);font-size:0.82em;color:var(--teal);">' OR '1'='1</code>.</li>
+            <li>Implemented parameterised queries as a fix; retested to confirm the vulnerability was eliminated.</li>
+          </ul></div>
+          <div class="lab-section"><div class="lab-section-title"><span>03</span> Tools Used</div><div class="tools-row"><span class="tool-tag">DVWA</span><span class="tool-tag">Burp Suite</span><span class="tool-tag">SQLMap</span><span class="tool-tag">MySQL</span><span class="tool-tag">PHP</span><span class="tool-tag">Firefox DevTools</span></div></div>
+          <div class="lab-section"><div class="lab-section-title"><span>04</span> Screenshots</div><div class="screenshot-box"><p>[ To be uploaded ]</p></div></div>
+          <div class="lab-section"><div class="lab-section-title"><span>05</span> Key Lessons Learned</div><div class="lesson-callout">SQL injection persists as an OWASP Top 10 vulnerability because developers conflate SQL structure with user input. As a developer who writes SQL daily, this challenge made the risk viscerally concrete — one unsanitised input can expose an entire database. Prepared statements and parameterised queries are the definitive mitigation.</div></div>
+        </div>
+      </div>
+
+      <div class="lab-card">
+        <div class="lab-header">
+          <div class="lab-index">3</div>
+          <div class="lab-header-text">
+            <div class="lab-title">Switch &amp; Router Configuration — Enterprise Network Setup</div>
+            <div class="lab-meta-row">
+              <span class="lab-cat">Networking · Routing &amp; Switching</span><span class="lab-cat">·</span>
+              <span class="lab-cat">Cisco Packet Tracer</span>
+              <span class="lab-difficulty diff-medium">Intermediate</span>
+            </div>
+          </div>
+          <div class="lab-toggle">+</div>
+        </div>
+        <div class="lab-body">
+          <div class="lab-section"><div class="lab-section-title"><span>01</span> Problem Statement</div><p>Design and configure a multi-department enterprise network from scratch using Cisco switches and routers. The network must segment departments into separate VLANs, enable inter-VLAN routing, assign IP addressing via DHCP, and ensure all end devices can communicate according to defined access policies — simulating a real-world office network deployment.</p></div>
+          <div class="lab-section"><div class="lab-section-title"><span>02</span> Approach</div><ul>
+            <li>Designed the network topology in Cisco Packet Tracer with 1 router, 2 layer-2 switches, and multiple end devices representing HR, IT, and Finance departments.</li>
+            <li>Created and named VLANs: <code style="font-family:var(--ff-mono);font-size:0.82em;color:var(--teal);">VLAN 10 (HR), VLAN 20 (IT), VLAN 30 (Finance)</code>.</li>
+            <li>Assigned switch ports using <code style="font-family:var(--ff-mono);font-size:0.82em;color:var(--teal);">switchport mode access</code> and <code style="font-family:var(--ff-mono);font-size:0.82em;color:var(--teal);">switchport access vlan</code>.</li>
+            <li>Configured trunk links with <code style="font-family:var(--ff-mono);font-size:0.82em;color:var(--teal);">switchport mode trunk</code>.</li>
+            <li>Set up Router-on-a-Stick: sub-interfaces <code style="font-family:var(--ff-mono);font-size:0.82em;color:var(--teal);">fa0/0.10, fa0/0.20, fa0/0.30</code> with 802.1Q encapsulation.</li>
+            <li>Configured DHCP pools per VLAN and verified with <code style="font-family:var(--ff-mono);font-size:0.82em;color:var(--teal);">show ip dhcp binding</code>.</li>
+            <li>Applied port security and set console/VTY passwords on all devices.</li>
+          </ul></div>
+          <div class="lab-section"><div class="lab-section-title"><span>03</span> Tools Used</div><div class="tools-row"><span class="tool-tag">Cisco Packet Tracer</span><span class="tool-tag">Cisco IOS CLI</span><span class="tool-tag">802.1Q Trunking</span><span class="tool-tag">Router-on-a-Stick</span><span class="tool-tag">DHCP Pools</span><span class="tool-tag">Inter-VLAN Routing</span><span class="tool-tag">Port Security</span></div></div>
+          <div class="lab-section"><div class="lab-section-title"><span>04</span> Screenshots</div><div class="screenshot-box"><p>[ To be uploaded ]</p></div></div>
+          <div class="lab-section"><div class="lab-section-title"><span>05</span> Key Lessons Learned</div><div class="lesson-callout">VLAN segmentation is one of the most powerful and cost-effective security controls in any enterprise network — it limits broadcast domains and contains lateral movement without additional hardware. The Router-on-a-Stick model showed how a single physical interface can serve an entire multi-VLAN network. Proper trunk configuration is the most common failure point in VLAN setups.</div></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-dark">
+    <div class="section-label">
+      <span class="section-num" style="border-color:rgba(232,146,58,0.5);">04</span>
+      <h2 class="section-title">Contact</h2>
+      <span class="section-label-line"></span>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-left">
+        <h3 class="contact-intro">Let's build <em>something</em> great.</h3>
+        <p class="contact-sub">Open to new opportunities, collaborations, and conversations about networking, software development, and ICT infrastructure. Based in Nairobi — reach out through any channel below.</p>
+      </div>
+      <div class="contact-links-grid">
+        <a href="mailto:chrisobaga17@gmail.com" class="contact-btn">
+          <div class="contact-btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div><div class="contact-btn-label">Email</div><div class="contact-btn-value">chrisobaga10@gmail.com</div></div>
+        </a>
+        <a href="tel:+254797152849" class="contact-btn">
+          <div class="contact-btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><div class="contact-btn-label">Phone</div><div class="contact-btn-value">+254 711 342 540</div></div>
+        </a>
+        <a href="https://linkedin.com/in/christopher-obaga" target="_blank" class="contact-btn">
+          <div class="contact-btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div>
+          <div><div class="contact-btn-label">LinkedIn</div><div class="contact-btn-value">christopher-obaga</div></div>
+        </a>
+        <a href="https://github.com/christopher-obaga" target="_blank" class="contact-btn">
+          <div class="contact-btn-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></div>
+          <div><div class="contact-btn-label">GitHub</div><div class="contact-btn-value">christopher-obaga</div></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© <span id="year"></span> <span>Christopher Obaga</span>. All rights reserved.</p>
+    <p>ICT Assistant &amp; Network Specialist · <span>Huduma Kenya Secretariat</span></p>
+    <p>Built with <span>HTML · CSS · JS</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
